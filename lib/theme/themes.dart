@@ -42,9 +42,9 @@ ThemeData darkTheme = ThemeData(
   fontFamily: 'JakartaSans',
   appBarTheme: const AppBarTheme(
     systemOverlayStyle: SystemUiOverlayStyle.light,
-    backgroundColor: AppColors.black,
+    backgroundColor: AppColors.gray06Dark,
   ),
-  scaffoldBackgroundColor: AppColors.black,
+  scaffoldBackgroundColor: AppColors.gray06Dark,
   textSelectionTheme: TextSelectionThemeData(
     cursorColor: AppColors.gray06Light,
     selectionColor: AppColors.white.withOpacity(0.4),
@@ -52,7 +52,7 @@ ThemeData darkTheme = ThemeData(
   ),
   colorScheme: const ColorScheme(
     brightness: Brightness.dark,
-    primary: AppColors.gray06Dark,
+    primary: AppColors.black,
     onPrimary: AppColors.gray06Light,
     secondary: AppColors.gray05Dark,
     onSecondary: AppColors.gray06Light,
@@ -68,8 +68,8 @@ ThemeData darkTheme = ThemeData(
 );
 
 extension ColorExt on ColorScheme {
-  Color get primaryBrandColor => AppColors.primary;
-  Color get onPrimaryBrandColor => AppColors.onPrimary;
+  Color get brandColor => AppColors.primary;
+  Color get onBrandColor => AppColors.onPrimary;
   Color get white => AppColors.white;
   Color get black => AppColors.black;
 }

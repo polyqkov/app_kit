@@ -2,9 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 
-import '../extensions/colors_ext.dart';
-import '../extensions/sizes_ext.dart';
-import '../theme/themes.dart';
+import '../app_kit.dart';
 
 const double _kGapAngle = math.pi / 12;
 const double _kMinAngle = math.pi / 36;
@@ -39,7 +37,7 @@ class _ThreeArchedCircleState extends State<CircleLoading>
 
   @override
   Widget build(BuildContext context) {
-    final Color color = widget.color ?? context.colors.primaryBrandColor;
+    final Color color = widget.color ?? context.colors.brandColor;
     final double size = widget.size ?? context.sizes.size6x;
     final double ringWidth = size * 0.1;
 

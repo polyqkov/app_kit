@@ -24,7 +24,7 @@ export 'extensions/media_query_ext.dart';
 export 'extensions/shadows_ext.dart';
 
 /// Common
-export 'common/app_offset_box.dart';
+export 'common/offset_box.dart';
 export 'common/locales.dart';
 export 'common/sizes.dart';
 
