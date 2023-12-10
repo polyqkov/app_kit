@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
-import '../extensions/colors_ext.dart';
-import 'themes.dart';
-
 class Shadows {
-  static BoxShadow getButtonShadow(BuildContext context) {
+  BoxShadow buttonShadow(Color color) {
     return BoxShadow(
-      color: context.colors.primaryBrandColor.withOpacity(0.4),
+      color: color.withOpacity(0.4),
       blurRadius: 10,
+      offset: const Offset(0.0, 0.0),
     );
   }
 }

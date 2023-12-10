@@ -3,7 +3,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const primary = Color.fromRGBO(0, 0, 0, 0.0);
+  static const primary = Color.fromRGBO(94, 92, 230, 1.0);
+  static const onPrimary = Color.fromRGBO(250, 250, 250, 1.0);
   static const transparent = Color.fromRGBO(0, 0, 0, 0.0);
 
   // Light

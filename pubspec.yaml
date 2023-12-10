@@ -42,12 +42,13 @@ dependencies:
   # UI
   google_fonts: ^6.1.0
   eva_icons_flutter: ^3.1.0
-  modal_bottom_sheet: ^2.1.2
+  modal_bottom_sheet: ^3.0.0-pre
   pin_code_fields: ^8.0.1
   cached_network_image: ^3.3.0
   skeletons: ^0.0.3
   flutter_easy_dialogs: ^3.1.2
   flutter_svg: ^2.0.7
+  gap: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -55,3 +56,41 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+  fonts:
+    - family: JakartaSans
+      fonts:
+        - asset: assets/fonts/JakartaSans/JakartaSans-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/JakartaSans/JakartaSans-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/JakartaSans/JakartaSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/JakartaSans/JakartaSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/JakartaSans/JakartaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/JakartaSans/JakartaSans-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/JakartaSans/JakartaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/JakartaSans/JakartaSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/JakartaSans/JakartaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/JakartaSans/JakartaSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/JakartaSans/JakartaSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/JakartaSans/JakartaSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/JakartaSans/JakartaSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/JakartaSans/JakartaSans-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic

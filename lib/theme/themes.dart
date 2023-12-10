@@ -5,13 +5,19 @@ import 'colors.dart';
 
 /// Light Theme
 ThemeData lightTheme = ThemeData(
+  useMaterial3: true,
   brightness: Brightness.light,
+  fontFamily: 'JakartaSans',
   appBarTheme: const AppBarTheme(
     systemOverlayStyle: SystemUiOverlayStyle.dark,
     backgroundColor: AppColors.white,
   ),
-  useMaterial3: true,
   scaffoldBackgroundColor: AppColors.white,
+  textSelectionTheme: TextSelectionThemeData(
+    cursorColor: AppColors.gray06Dark,
+    selectionColor: AppColors.black.withOpacity(0.4),
+    selectionHandleColor: AppColors.gray06Dark,
+  ),
   colorScheme: const ColorScheme(
     brightness: Brightness.light,
     primary: AppColors.gray06Light,
@@ -33,6 +39,7 @@ ThemeData lightTheme = ThemeData(
 ThemeData darkTheme = ThemeData(
   useMaterial3: true,
   brightness: Brightness.dark,
+  fontFamily: 'JakartaSans',
   appBarTheme: const AppBarTheme(
     systemOverlayStyle: SystemUiOverlayStyle.light,
     backgroundColor: AppColors.black,
@@ -61,7 +68,8 @@ ThemeData darkTheme = ThemeData(
 );
 
 extension ColorExt on ColorScheme {
-  Color get primaryBrandColor => AppColors.indigoLight;
-  Color get onPrimaryBrandColor => AppColors.white;
+  Color get primaryBrandColor => AppColors.primary;
+  Color get onPrimaryBrandColor => AppColors.onPrimary;
   Color get white => AppColors.white;
+  Color get black => AppColors.black;
 }

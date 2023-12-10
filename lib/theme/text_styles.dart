@@ -1,167 +1,223 @@
 import 'package:flutter/widgets.dart';
-import 'package:google_fonts/google_fonts.dart';
 
+// TextStyles
+// For use Google Fonts, change TextStyle to GoogleFonts.manrope(for example)
 class AppTextStyles {
   // Large Title 34
-  TextStyle get largeTitleLight => GoogleFonts.inter(
+
+  TextStyle get largeTitleExtraLight => const TextStyle(
+        fontSize: 34,
+        fontWeight: FontWeight.w200,
+        letterSpacing: 0.37,
+        height: 41 / 34,
+      );
+  TextStyle get largeTitleLight => const TextStyle(
         fontSize: 34,
         fontWeight: FontWeight.w300,
         letterSpacing: 0.37,
         height: 41 / 34,
       );
-  TextStyle get largeTitleRegular => GoogleFonts.inter(
+  TextStyle get largeTitleRegular => const TextStyle(
         fontSize: 34,
         fontWeight: FontWeight.w400,
         letterSpacing: 0.37,
         height: 41 / 34,
       );
-  TextStyle get largeTitleMedium => GoogleFonts.inter(
+  TextStyle get largeTitleMedium => const TextStyle(
         fontSize: 34,
         fontWeight: FontWeight.w500,
         letterSpacing: 0.37,
         height: 41 / 34,
       );
-  TextStyle get largeTitleSemiBold => GoogleFonts.inter(
+  TextStyle get largeTitleSemiBold => const TextStyle(
         fontSize: 34,
         fontWeight: FontWeight.w600,
         letterSpacing: 0.37,
         height: 41 / 34,
       );
-  TextStyle get largeTitleBold => GoogleFonts.inter(
+  TextStyle get largeTitleBold => const TextStyle(
         fontSize: 34,
         fontWeight: FontWeight.w700,
+        letterSpacing: 0.37,
+        height: 41 / 34,
+      );
+  TextStyle get largeTitleExtraBold => const TextStyle(
+        fontSize: 34,
+        fontWeight: FontWeight.w800,
         letterSpacing: 0.37,
         height: 41 / 34,
       );
 
   // Title1 28
-  TextStyle get title1Light => GoogleFonts.inter(
+  TextStyle get title1ExtraLight => const TextStyle(
+        fontSize: 28,
+        fontWeight: FontWeight.w200,
+        letterSpacing: 0.36,
+        height: 34 / 28,
+      );
+  TextStyle get title1Light => const TextStyle(
         fontSize: 28,
         fontWeight: FontWeight.w300,
         letterSpacing: 0.36,
         height: 34 / 28,
       );
-  TextStyle get title1Regular => GoogleFonts.inter(
+  TextStyle get title1Regular => const TextStyle(
         fontSize: 28,
         fontWeight: FontWeight.w400,
         letterSpacing: 0.36,
         height: 34 / 28,
       );
-  TextStyle get title1Medium => GoogleFonts.inter(
+  TextStyle get title1Medium => const TextStyle(
         fontSize: 28,
         fontWeight: FontWeight.w500,
         letterSpacing: 0.36,
         height: 34 / 28,
       );
-  TextStyle get title1SemiBold => GoogleFonts.inter(
+  TextStyle get title1SemiBold => const TextStyle(
         fontSize: 28,
         fontWeight: FontWeight.w600,
         letterSpacing: 0.36,
         height: 34 / 28,
       );
-  TextStyle get title1Bold => GoogleFonts.inter(
+  TextStyle get title1Bold => const TextStyle(
         fontSize: 28,
         fontWeight: FontWeight.w700,
+        letterSpacing: 0.36,
+        height: 34 / 28,
+      );
+  TextStyle get title1ExtraBold => const TextStyle(
+        fontSize: 28,
+        fontWeight: FontWeight.w800,
         letterSpacing: 0.36,
         height: 34 / 28,
       );
 
   // Title2 22
-  TextStyle get title2Light => GoogleFonts.inter(
+  TextStyle get title2ExtraLight => const TextStyle(
+        fontSize: 22,
+        fontWeight: FontWeight.w200,
+        letterSpacing: 0.35,
+        height: 28 / 22,
+      );
+  TextStyle get title2Light => const TextStyle(
         fontSize: 22,
         fontWeight: FontWeight.w300,
         letterSpacing: 0.35,
         height: 28 / 22,
       );
-  TextStyle get title2Regular => GoogleFonts.inter(
+  TextStyle get title2Regular => const TextStyle(
         fontSize: 22,
         fontWeight: FontWeight.w400,
         letterSpacing: 0.36,
         height: 34 / 28,
       );
-  TextStyle get title2Medium => GoogleFonts.inter(
+  TextStyle get title2Medium => const TextStyle(
         fontSize: 22,
         fontWeight: FontWeight.w500,
         letterSpacing: 0.36,
         height: 34 / 28,
       );
-  TextStyle get title2SemiBold => GoogleFonts.inter(
+  TextStyle get title2SemiBold => const TextStyle(
         fontSize: 22,
         fontWeight: FontWeight.w600,
         letterSpacing: 0.36,
         height: 34 / 28,
       );
-  TextStyle get title2Bold => GoogleFonts.inter(
+  TextStyle get title2Bold => const TextStyle(
         fontSize: 22,
         fontWeight: FontWeight.w700,
+        letterSpacing: 0.36,
+        height: 34 / 28,
+      );
+  TextStyle get title2ExtraBold => const TextStyle(
+        fontSize: 22,
+        fontWeight: FontWeight.w800,
         letterSpacing: 0.36,
         height: 34 / 28,
       );
 
   // Title3 20
-  TextStyle get title3Light => GoogleFonts.inter(
+  TextStyle get title3ExtraLight => const TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.w200,
+        letterSpacing: 0.38,
+        height: 25 / 20,
+      );
+  TextStyle get title3Light => const TextStyle(
         fontSize: 20,
         fontWeight: FontWeight.w300,
         letterSpacing: 0.38,
         height: 25 / 20,
       );
-  TextStyle get title3Regular => GoogleFonts.inter(
+  TextStyle get title3Regular => const TextStyle(
         fontSize: 20,
         fontWeight: FontWeight.w400,
         letterSpacing: 0.38,
         height: 25 / 20,
       );
-  TextStyle get title3Medium => GoogleFonts.inter(
+  TextStyle get title3Medium => const TextStyle(
         fontSize: 20,
         fontWeight: FontWeight.w500,
         letterSpacing: 0.38,
         height: 25 / 20,
       );
-  TextStyle get title3SemiBold => GoogleFonts.inter(
+  TextStyle get title3SemiBold => const TextStyle(
         fontSize: 20,
         fontWeight: FontWeight.w600,
         letterSpacing: 0.38,
         height: 25 / 20,
       );
-  TextStyle get title3Bold => GoogleFonts.inter(
+  TextStyle get title3Bold => const TextStyle(
         fontSize: 20,
         fontWeight: FontWeight.w700,
+        letterSpacing: 0.38,
+        height: 25 / 20,
+      );
+  TextStyle get title3ExtraBold => const TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.w800,
         letterSpacing: 0.38,
         height: 25 / 20,
       );
 
   // Body 17
-  TextStyle get bodyLight => GoogleFonts.inter(
+  TextStyle get bodyExtraLight => const TextStyle(
+        fontSize: 17,
+        fontWeight: FontWeight.w200,
+        letterSpacing: -0.41,
+        height: 22 / 17,
+      );
+  TextStyle get bodyLight => const TextStyle(
         fontSize: 17,
         fontWeight: FontWeight.w300,
         letterSpacing: -0.41,
         height: 22 / 17,
       );
-  TextStyle get bodyRegular => GoogleFonts.inter(
+  TextStyle get bodyRegular => const TextStyle(
         fontSize: 17,
         fontWeight: FontWeight.w400,
         letterSpacing: -0.41,
         height: 22 / 17,
       );
-  TextStyle get bodyMedium => GoogleFonts.inter(
+  TextStyle get bodyMedium => const TextStyle(
         fontSize: 17,
         fontWeight: FontWeight.w500,
         letterSpacing: -0.41,
         height: 22 / 17,
       );
-  TextStyle get bodySemiBold => GoogleFonts.inter(
+  TextStyle get bodySemiBold => const TextStyle(
         fontSize: 17,
         fontWeight: FontWeight.w600,
         letterSpacing: -0.41,
         height: 22 / 17,
       );
-  TextStyle get bodyBold => GoogleFonts.inter(
+  TextStyle get bodyBold => const TextStyle(
         fontSize: 17,
         fontWeight: FontWeight.w700,
         letterSpacing: -0.41,
         height: 22 / 17,
       );
-  TextStyle get bodyExtraBold => GoogleFonts.inter(
+  TextStyle get bodyExtraBold => const TextStyle(
         fontSize: 17,
         fontWeight: FontWeight.w800,
         letterSpacing: -0.41,
@@ -169,161 +225,223 @@ class AppTextStyles {
       );
 
   // Callout 16
-  TextStyle get calloutLight => GoogleFonts.inter(
+  TextStyle get calloutExtraLight => const TextStyle(
+        fontSize: 16,
+        fontWeight: FontWeight.w200,
+        letterSpacing: -0.32,
+        height: 21 / 16,
+      );
+  TextStyle get calloutLight => const TextStyle(
         fontSize: 16,
         fontWeight: FontWeight.w300,
         letterSpacing: -0.32,
         height: 21 / 16,
       );
-  TextStyle get calloutRegular => GoogleFonts.inter(
+  TextStyle get calloutRegular => const TextStyle(
         fontSize: 16,
         fontWeight: FontWeight.w400,
         letterSpacing: -0.32,
         height: 21 / 16,
       );
-  TextStyle get calloutMedium => GoogleFonts.inter(
+  TextStyle get calloutMedium => const TextStyle(
         fontSize: 16,
         fontWeight: FontWeight.w500,
         letterSpacing: -0.32,
         height: 21 / 16,
       );
-  TextStyle get calloutSemiBold => GoogleFonts.inter(
+  TextStyle get calloutSemiBold => const TextStyle(
         fontSize: 16,
         fontWeight: FontWeight.w600,
         letterSpacing: -0.32,
         height: 21 / 16,
       );
-  TextStyle get calloutBold => GoogleFonts.inter(
+  TextStyle get calloutBold => const TextStyle(
         fontSize: 16,
         fontWeight: FontWeight.w700,
+        letterSpacing: -0.32,
+        height: 21 / 16,
+      );
+  TextStyle get calloutExtraBold => const TextStyle(
+        fontSize: 16,
+        fontWeight: FontWeight.w800,
         letterSpacing: -0.32,
         height: 21 / 16,
       );
 
   // Subhead 15
-  TextStyle get subheadLight => GoogleFonts.inter(
+
+  TextStyle get subheadExtraLight => const TextStyle(
+        fontSize: 15,
+        fontWeight: FontWeight.w200,
+        letterSpacing: -0.24,
+        height: 20 / 15,
+      );
+  TextStyle get subheadLight => const TextStyle(
         fontSize: 15,
         fontWeight: FontWeight.w300,
         letterSpacing: -0.24,
         height: 20 / 15,
       );
-  TextStyle get subheadRegular => GoogleFonts.inter(
+  TextStyle get subheadRegular => const TextStyle(
         fontSize: 15,
         fontWeight: FontWeight.w400,
         letterSpacing: -0.24,
         height: 20 / 15,
       );
-  TextStyle get subheadMedium => GoogleFonts.inter(
+  TextStyle get subheadMedium => const TextStyle(
         fontSize: 15,
         fontWeight: FontWeight.w500,
         letterSpacing: -0.24,
         height: 20 / 15,
       );
-  TextStyle get subheadSemiBold => GoogleFonts.inter(
+  TextStyle get subheadSemiBold => const TextStyle(
         fontSize: 15,
         fontWeight: FontWeight.w600,
         letterSpacing: -0.24,
         height: 20 / 15,
       );
-  TextStyle get subheadBold => GoogleFonts.inter(
+  TextStyle get subheadBold => const TextStyle(
         fontSize: 15,
         fontWeight: FontWeight.w700,
+        letterSpacing: -0.24,
+        height: 20 / 15,
+      );
+  TextStyle get subheadExtraBold => const TextStyle(
+        fontSize: 15,
+        fontWeight: FontWeight.w800,
         letterSpacing: -0.24,
         height: 20 / 15,
       );
 
   // Footnote 13
-  TextStyle get footnoteLight => GoogleFonts.inter(
+
+  TextStyle get footnoteExtraLight => const TextStyle(
+        fontSize: 13,
+        fontWeight: FontWeight.w200,
+        letterSpacing: -0.08,
+        height: 18 / 13,
+      );
+  TextStyle get footnoteLight => const TextStyle(
         fontSize: 13,
         fontWeight: FontWeight.w300,
         letterSpacing: -0.08,
         height: 18 / 13,
       );
-  TextStyle get footnoteRegular => GoogleFonts.inter(
+  TextStyle get footnoteRegular => const TextStyle(
         fontSize: 13,
         fontWeight: FontWeight.w400,
         letterSpacing: -0.08,
         height: 18 / 13,
       );
-  TextStyle get footnoteMedium => GoogleFonts.inter(
+  TextStyle get footnoteMedium => const TextStyle(
         fontSize: 13,
         fontWeight: FontWeight.w500,
         letterSpacing: -0.08,
         height: 18 / 13,
       );
-  TextStyle get footnoteSemiBold => GoogleFonts.inter(
+  TextStyle get footnoteSemiBold => const TextStyle(
         fontSize: 13,
         fontWeight: FontWeight.w600,
         letterSpacing: -0.08,
         height: 18 / 13,
       );
-  TextStyle get footnoteBold => GoogleFonts.inter(
+  TextStyle get footnoteBold => const TextStyle(
         fontSize: 13,
         fontWeight: FontWeight.w700,
+        letterSpacing: -0.08,
+        height: 18 / 13,
+      );
+  TextStyle get footnoteExtraBold => const TextStyle(
+        fontSize: 13,
+        fontWeight: FontWeight.w800,
         letterSpacing: -0.08,
         height: 18 / 13,
       );
 
   // Caption1 12
-  TextStyle get caption1Light => GoogleFonts.inter(
+  TextStyle get caption1ExtraLight => const TextStyle(
+        fontSize: 12,
+        fontWeight: FontWeight.w200,
+        letterSpacing: 0,
+        height: 16 / 12,
+      );
+  TextStyle get caption1Light => const TextStyle(
         fontSize: 12,
         fontWeight: FontWeight.w300,
         letterSpacing: 0,
         height: 16 / 12,
       );
-  TextStyle get caption1Regular => GoogleFonts.inter(
+  TextStyle get caption1Regular => const TextStyle(
         fontSize: 12,
         fontWeight: FontWeight.w400,
         letterSpacing: 0,
         height: 16 / 12,
       );
-  TextStyle get caption1Medium => GoogleFonts.inter(
+  TextStyle get caption1Medium => const TextStyle(
         fontSize: 12,
         fontWeight: FontWeight.w500,
         letterSpacing: 0,
         height: 16 / 12,
       );
-  TextStyle get caption1SemiBold => GoogleFonts.inter(
+  TextStyle get caption1SemiBold => const TextStyle(
         fontSize: 12,
         fontWeight: FontWeight.w600,
         letterSpacing: 0,
         height: 16 / 12,
       );
-  TextStyle get caption1Bold => GoogleFonts.inter(
+  TextStyle get caption1Bold => const TextStyle(
         fontSize: 12,
         fontWeight: FontWeight.w700,
+        letterSpacing: 0,
+        height: 16 / 12,
+      );
+  TextStyle get caption1ExtraBold => const TextStyle(
+        fontSize: 12,
+        fontWeight: FontWeight.w800,
         letterSpacing: 0,
         height: 16 / 12,
       );
 
   // Caption2 11
-  TextStyle get caption2Light => GoogleFonts.inter(
+  TextStyle get caption2ExtraLight => const TextStyle(
+        fontSize: 11,
+        fontWeight: FontWeight.w200,
+        letterSpacing: 0.07,
+        height: 13 / 11,
+      );
+  TextStyle get caption2Light => const TextStyle(
         fontSize: 11,
         fontWeight: FontWeight.w300,
         letterSpacing: 0.07,
         height: 13 / 11,
       );
-  TextStyle get caption2Regular => GoogleFonts.inter(
+  TextStyle get caption2Regular => const TextStyle(
         fontSize: 11,
         fontWeight: FontWeight.w400,
         letterSpacing: 0.07,
         height: 13 / 11,
       );
-  TextStyle get caption2Medium => GoogleFonts.inter(
+  TextStyle get caption2Medium => const TextStyle(
         fontSize: 11,
         fontWeight: FontWeight.w500,
         letterSpacing: 0.07,
         height: 13 / 11,
       );
-  TextStyle get caption2SemiBold => GoogleFonts.inter(
+  TextStyle get caption2SemiBold => const TextStyle(
         fontSize: 11,
         fontWeight: FontWeight.w600,
         letterSpacing: 0.07,
         height: 13 / 11,
       );
-  TextStyle get caption2Bold => GoogleFonts.inter(
+  TextStyle get caption2Bold => const TextStyle(
         fontSize: 11,
         fontWeight: FontWeight.w700,
+        letterSpacing: 0.07,
+        height: 13 / 11,
+      );
+  TextStyle get caption2ExtraBold => const TextStyle(
+        fontSize: 11,
+        fontWeight: FontWeight.w800,
         letterSpacing: 0.07,
         height: 13 / 11,
       );
